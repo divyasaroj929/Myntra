@@ -30,8 +30,6 @@ import NavRouterPage from "./COMPONENT/NAVFIRST/NAVROUTERPAGE/NavRouterPage";
 
 import Rightsidebar from "./Rightsidebar";
 import Footer from "./FOOTER/Footer/Footer";
-import SinglePic from "./SINGLEPAGE/SinglePic";
-import Breadcrumb from "./BREADCRUMB/Breadcrumb";
 function App() {
   let num1 = 5;
   let num2 = 8;
@@ -43,7 +41,6 @@ function App() {
       <div className="main-head-container">
         <BrowserRouter>
           <NavRouterPage />
-          {/* <Breadcrumb /> */}
           {/* <SinglePic /> */}
           <Routes>
             <Route index element={<Home />}></Route>
