@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+  .Drop-down-second-container {
+    height: 100vh;
+    width: scroll;
+  }
+  .filter-border {
+    display: none;
+  }
+}
