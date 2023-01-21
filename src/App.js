@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./StyleComponent/Header.css";
+
 import "./StyleComponent/mediaQdropdown.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -41,9 +42,10 @@ function App() {
       <div className="main-head-container">
         <BrowserRouter>
           <NavRouterPage />
-          {/* <SinglePic /> */}
           <Routes>
-            <Route index element={<Home />}></Route>
+            <Route path="/myntra" element={<Home />}></Route>
+
+            {/* <Route index element={<Home />}></Route> */}
             <Route path="/Man" element={<Man />}></Route>
             <Route path="/Woman" element={<Women />}></Route>
             <Route path="/Kids" element={<Kids />}></Route>
