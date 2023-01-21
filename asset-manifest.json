@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/myntra/static/css/main.9efe5db1.css",
+    "main.js": "/myntra/static/js/main.d82c28c0.js",
+    "static/media/fourimg.jpg": "/myntra/static/media/fourimg.dd5e2d3c95f36be01c8d.jpg",
+    "static/media/secondimg.jpg": "/myntra/static/media/secondimg.16630ae6324f8c766e34.jpg",
+    "static/media/thirdImg.jpg": "/myntra/static/media/thirdImg.718b0d0bd31587d1b92a.jpg",
+    "static/media/firstmyntra.jpg": "/myntra/static/media/firstmyntra.a52d6afc6b0a33f379cf.jpg",
+    "static/media/ProflieIMG.webp": "/myntra/static/media/ProflieIMG.d3e953a25f248efaf293.webp",
+    "static/media/summer.jpg": "/myntra/static/media/summer.51acb287344105743906.jpg",
+    "static/media/emptybag.png": "/myntra/static/media/emptybag.a9c4b6e9fa83e9e0f81a.png",
+    "static/media/mens.jpg": "/myntra/static/media/mens.8fcb9100d46d34f78c4e.jpg",
+    "static/media/Tops.jpg": "/myntra/static/media/Tops.c017d5253234cafb02d2.jpg",
+    "static/media/Closet.svg": "/myntra/static/media/Closet.f541dc16ce3532137e4f187f27518551.svg",
+    "index.html": "/myntra/index.html",
+    "main.9efe5db1.css.map": "/myntra/static/css/main.9efe5db1.css.map",
+    "main.d82c28c0.js.map": "/myntra/static/js/main.d82c28c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9efe5db1.css",
+    "static/js/main.d82c28c0.js"
+  ]
+}
