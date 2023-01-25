@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <div className="main-head-container">
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <NavRouterPage />
           <Routes>
             <Route path="/" element={<Home />}></Route>
