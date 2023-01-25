@@ -300,8 +300,7 @@ p {
 }
 .summer {
   height: 100%;
-  width: 100px;
-  /* flex: 1; */
+  width: 110px;
 }
 @media screen and (max-width: 768px) {
   .multi-img {
@@ -310,6 +309,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .top-header {
     height: 70px;
     width: 100%;
