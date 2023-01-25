@@ -43,7 +43,7 @@ function App() {
         <BrowserRouter>
           <NavRouterPage />
           <Routes>
-            <Route path="/myntra" element={<Home />}></Route>
+            <Route path="/" element={<Home />}></Route>
 
             {/* <Route index element={<Home />}></Route> */}
             <Route path="/Man" element={<Man />}></Route>
