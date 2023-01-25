@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myntra/static/css/main.9efe5db1.css",
-    "main.js": "/myntra/static/js/main.42fb39a8.js",
+    "main.css": "/myntra/static/css/main.69ca4f82.css",
+    "main.js": "/myntra/static/js/main.f2f4b0bf.js",
     "static/media/fourimg.jpg": "/myntra/static/media/fourimg.dd5e2d3c95f36be01c8d.jpg",
     "static/media/secondimg.jpg": "/myntra/static/media/secondimg.16630ae6324f8c766e34.jpg",
     "static/media/thirdImg.jpg": "/myntra/static/media/thirdImg.718b0d0bd31587d1b92a.jpg",
@@ -13,11 +13,11 @@
     "static/media/Tops.jpg": "/myntra/static/media/Tops.c017d5253234cafb02d2.jpg",
     "static/media/Closet.svg": "/myntra/static/media/Closet.f541dc16ce3532137e4f187f27518551.svg",
     "index.html": "/myntra/index.html",
-    "main.9efe5db1.css.map": "/myntra/static/css/main.9efe5db1.css.map",
-    "main.42fb39a8.js.map": "/myntra/static/js/main.42fb39a8.js.map"
+    "main.69ca4f82.css.map": "/myntra/static/css/main.69ca4f82.css.map",
+    "main.f2f4b0bf.js.map": "/myntra/static/js/main.f2f4b0bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.9efe5db1.css",
-    "static/js/main.42fb39a8.js"
+    "static/css/main.69ca4f82.css",
+    "static/js/main.f2f4b0bf.js"
   ]
 }
