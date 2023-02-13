@@ -43,9 +43,9 @@ function App() {
         <BrowserRouter basename={process.env.PUBLIC_URL}>
           <NavRouterPage />
           <Routes>
-            <Route path="/myntra" element={<Home />}></Route>
+            {/* <Route path="/myntra" element={<Home />}></Route> */}
 
-            {/* <Route index element={<Home />}></Route> */}
+            <Route index element={<Home />}></Route>
             <Route path="/Man" element={<Man />}></Route>
             <Route path="/Woman" element={<Women />}></Route>
             <Route path="/Kids" element={<Kids />}></Route>
