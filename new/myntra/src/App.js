@@ -1,8 +1,9 @@
 import React from "react";
 
 import "./StyleComponent/Header.css";
+
 import "./StyleComponent/mediaQdropdown.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Home from "./COMPONENT/NAVFIRST/NAVROUTERPAGE/NAVLINKPAGE/Home";
 
@@ -31,34 +32,30 @@ import NavRouterPage from "./COMPONENT/NAVFIRST/NAVROUTERPAGE/NavRouterPage";
 import Rightsidebar from "./Rightsidebar";
 import Footer from "./FOOTER/Footer/Footer";
 function App() {
-  let num1 = 5;
-  let num2 = 8;
-  let total = num1 + num2;
-  console.log(total);
-
   return (
     <>
       <div className="main-head-container">
-        <BrowserRouter>
-          <NavRouterPage />
-          {/* <SinglePic /> */}
-          <Routes>
-            <Route index element={<Home />}></Route>
-            <Route path="/Man" element={<Man />}></Route>
-            <Route path="/Woman" element={<Women />}></Route>
-            <Route path="/Kids" element={<Kids />}></Route>
-            <Route path="/HOMELiving" element={<HOMELiving />}></Route>
-            <Route path="/Studio" element={<Studio />}></Route>
-            <Route path="/Beauty" element={<Beauty />}></Route>
-            {/* nav2 ul list */}
-            <Route path="/Profile" element={<Proflie />}></Route>
-            <Route path="/Bag" element={<Bag />}></Route>
-            <Route path="/Wishlist" element={<Wishlist />}></Route>
-            <Route path="/order"></Route>
-          </Routes>
-          <Rightsidebar />
-          <Footer />
-        </BrowserRouter>
+        <NavRouterPage />
+        <Routes>
+          {/* home page ko path kitne type se de sakte h */}
+
+          {/* <Route index element={<Home />}></Route> */}
+          <Route path="/" element={<Home />}></Route>
+
+          <Route path="/Man" element={<Man />}></Route>
+          <Route path="/Woman" element={<Women />}></Route>
+          <Route path="/Kids" element={<Kids />}></Route>
+          <Route path="/HOMELiving" element={<HOMELiving />}></Route>
+          <Route path="/Studio" element={<Studio />}></Route>
+          <Route path="/Beauty" element={<Beauty />}></Route>
+          {/* nav2 ul list */}
+          <Route path="/Profile" element={<Proflie />}></Route>
+          <Route path="/Bag" element={<Bag />}></Route>
+          <Route path="/Wishlist" element={<Wishlist />}></Route>
+          <Route path="/order"></Route>
+        </Routes>
+        <Rightsidebar />
+        <Footer />
       </div>
     </>
   );

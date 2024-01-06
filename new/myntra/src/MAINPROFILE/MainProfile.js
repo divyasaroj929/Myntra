@@ -3,7 +3,6 @@ import PropDiv from "../PROFLIENAVBARII/PropDiv";
 import ProflieIMG from "../MAIN/ImageSection/ProflieIMG.webp";
 import "./index.css";
 import MensShop from "../shop/MensShop";
-import NavII from "../COMPONENT/NAVTWO/NavII";
 
 const MainProfile = () => {
   const [clickbtn, setClickbtn] = useState(false);

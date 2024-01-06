@@ -33,10 +33,10 @@ const row = [
     price: "85$",
     img: mens,
     size: "sm,s,l,xl,xxl,xxxl",
-    img: six,
   },
   {
     img: mens,
+    // img: six,
 
     price: "05$",
   },

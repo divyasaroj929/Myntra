@@ -18,11 +18,12 @@ const pic = [
   },
 ];
 console.log(pic);
-const SinglePic = () => {
+const SinglePic = ({ children }) => {
   console.log("pic");
   return (
     <div className="one-product-disclamer">
       <MapSinglePic data={pic} />
+      <div className="children">{children}</div>
     </div>
   );
 };

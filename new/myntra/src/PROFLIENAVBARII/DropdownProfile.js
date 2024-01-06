@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import FilterParaProps from "../shop/FilterParaProps";
 import { useNavigate } from "react-router-dom";
-import "./index.css";
+import FilterParaProps from "../shop/FilterParaProps";
 import NavProfile from "./NavProfile";
+import "./index.css";
 
 const DropdownProflie = () => {
   const navigate = useNavigate();

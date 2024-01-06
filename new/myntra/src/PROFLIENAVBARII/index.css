@@ -106,3 +106,26 @@
   color: #020917;
   font-size: 12px;
 }
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 468px) {
+  .nav2 ul li:hover .user-profile-navbarII {
+    display: block;
+
+    height: 400px;
+    width: 45%;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    z-index: 5;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 10px 0px gray;
+    background-color: #fcfcfc;
+    border-top: none;
+  }
+}

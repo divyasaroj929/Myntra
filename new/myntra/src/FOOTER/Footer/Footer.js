@@ -1,4 +1,3 @@
-import { ListItemAvatar } from "@mui/material";
 import React from "react";
 import FooterData from "../FooterData";
 const list = [

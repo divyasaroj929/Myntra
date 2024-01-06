@@ -97,7 +97,10 @@ const CreateMainPage = () => {
         </div>
       </div>
       <div className="row-column-multi-img">
-        <div className="multi-img">
+        <div
+          className="multi-img"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
           {shortData.map((value) => {
             return <img src={value.img} alt="done" className="summer" />;
           })}
